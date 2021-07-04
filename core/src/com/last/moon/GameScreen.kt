@@ -19,6 +19,7 @@ class GameScreen(var game: Moon) : Screen {
         Gdx.gl.glClearColor(0f,0f,0f,1f)
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT)
         game.batch.begin()
+        game.font.draw(game.batch, "Game Screen", 150f, 150f)
         game.batch.end()
     }
 

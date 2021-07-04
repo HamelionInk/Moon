@@ -10,8 +10,8 @@ object DesktopLauncher {
         val config = LwjglApplicationConfiguration()
         LwjglApplication(Moon(), config)
         config.title = "Moon"
-        config.height = 600
-        config.width = 600
+        config.height = 768
+        config.width = 1024
 
     }
 }
