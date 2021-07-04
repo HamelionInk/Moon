@@ -4,7 +4,6 @@ import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.Screen
 import com.badlogic.gdx.graphics.GL20
 import com.badlogic.gdx.graphics.OrthographicCamera
-import com.badlogic.gdx.graphics.g2d.SpriteBatch
 
 class GameScreen(var game: Moon) : Screen {
     var camera = OrthographicCamera()
@@ -14,7 +13,6 @@ class GameScreen(var game: Moon) : Screen {
     }
 
     override fun show() {
-
     }
 
     override fun render(delta: Float) {
