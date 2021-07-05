@@ -33,6 +33,10 @@ task dist(type: Jar) {
     with jar
 }
 
+dependencies {
+    implementation 'org.testng:testng:6.9.6'
+}
+
 
 dist.dependsOn classes
 
